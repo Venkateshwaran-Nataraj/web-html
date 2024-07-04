@@ -1,0 +1,134 @@
+body{
+    background-color: whitesmoke;
+    background-image: url(lbg.jpg);
+      background-repeat: no-repeat;
+   background-size: cover;
+      background-attachment: scroll;
+      background-position: center;
+      
+  }
+  
+  
+  #container{
+      display: flex;
+      justify-content: center;
+      font-weight: bold;
+  }
+  #name{
+      text-align: center ; 
+      font-size: 50px; 
+     
+      background: radial-gradient(circle at 52.1% -29.6%, rgba(144, 17, 106, 0.829) 0%, rgba(50, 0, 131, 0.76) 100.2%);
+    
+      border: 2px solid #03030305;
+      box-sizing: content-box;
+    
+      font-family: "Jaini Purva", system-ui;
+      font-weight: 400;
+      font-style: normal;
+      border-radius: 49px 10px;
+        
+      color: #e8f9e9;
+    
+  }
+  p,a{
+      font-size: larger;
+      text-decoration: none;
+      color: black;
+      
+  }
+  header{
+      
+     position: sticky;
+     top: 5px;
+     font-size: 25px;
+    
+    
+  }
+  
+  
+  
+  #img:hover{
+      transform: scale(1.05);
+  }
+  
+  
+  
+  .color{
+      background: linear-gradient(to right, #0acdfeb7 0%, #495bffad 100%);
+    
+      border-radius: 30px;
+      border: 1px solid #0b0c0c;
+      border-width: 2px;
+      font-weight: bolder;
+  
+     
+    
+      height: 30px;
+  }
+  .color:hover{
+     
+      transform: scale(1.05);
+  
+  }
+  #partner{
+      display: flex;
+      flex-direction: row; 
+
+      justify-content: center;
+    
+      
+  }
+  
+  #contact{
+     
+      display: flex;
+     
+      font-size: larger;
+        
+  
+      
+  }
+  #c1{
+     
+      justify-content: center;
+      padding-left: 10%;
+      color: white;
+  }
+  
+  .p:hover{
+     
+      transform: scale(1.1);
+      
+  
+  }
+  .p{
+      width:100px;
+      
+  }
+  
+  .im{
+      height: 100%;
+  
+  }
+  #pro{
+      display: flex;
+      justify-content: center;
+      justify-content: space-evenly;
+      padding-right: 20%;
+  
+     
+      
+  }
+  footer{
+      background: radial-gradient(circle at 50.3% 44.5%, rgb(176, 105, 214) 0%, rgb(145, 59, 134) 100.2%);
+  
+      
+  }
+  .bt
+  {
+    color: white;
+    text-align: justify;
+    margin-left: 27%;
+    font-size: 28px;
+  }
